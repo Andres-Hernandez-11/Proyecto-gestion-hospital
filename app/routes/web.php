@@ -85,6 +85,60 @@ switch ($url)
 
     break;
 
+    case 'doctores':
+
+        require_once '../app/controllers/DoctorController.php';
+
+        $controller = new DoctorController();
+        $controller->index();
+
+    break;
+
+    case 'doctores/create':
+
+        require_once '../app/controllers/DoctorController.php';
+
+        $controller = new DoctorController();
+        $controller->create();
+
+    break;
+
+    case 'doctores/store':
+
+        require_once '../app/controllers/DoctorController.php';
+
+        $controller = new DoctorController();
+        $controller->store();
+
+    break;
+
+    case 'doctores/edit':
+
+        require_once '../app/controllers/DoctorController.php';
+
+        $controller = new DoctorController();
+        $controller->edit();
+
+    break;
+
+    case 'doctores/update':
+
+        require_once '../app/controllers/DoctorController.php';
+
+        $controller = new DoctorController();
+        $controller->update();
+
+    break;
+
+    case 'doctores/delete':
+
+        require_once '../app/controllers/DoctorController.php';
+
+        $controller = new DoctorController();
+        $controller->delete();
+
+    break;
+
     default:
 
         require_once '../app/controllers/ErrorController.php';

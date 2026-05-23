@@ -14,7 +14,7 @@
             Pacientes
         </a>
 
-        <a href="#">
+        <a href="<?= BASE_URL ?>doctores">
             Doctores
         </a>
 
