@@ -31,6 +31,60 @@ switch ($url)
 
     break;
 
+    case 'pacientes':
+
+        require_once '../app/controllers/PacienteController.php';
+
+        $controller = new PacienteController();
+        $controller->index();
+
+    break;
+
+    case 'pacientes/create':
+
+        require_once '../app/controllers/PacienteController.php';
+
+        $controller = new PacienteController();
+        $controller->create();
+
+    break;
+
+    case 'pacientes/store':
+
+        require_once '../app/controllers/PacienteController.php';
+
+        $controller = new PacienteController();
+        $controller->store();
+
+    break;
+
+    case 'pacientes/edit':
+
+        require_once '../app/controllers/PacienteController.php';
+
+        $controller = new PacienteController();
+        $controller->edit();
+
+    break;
+
+    case 'pacientes/update':
+
+        require_once '../app/controllers/PacienteController.php';
+
+        $controller = new PacienteController();
+        $controller->update();
+
+    break;
+
+    case 'pacientes/delete':
+
+        require_once '../app/controllers/PacienteController.php';
+
+        $controller = new PacienteController();
+        $controller->delete();
+
+    break;
+
     default:
 
         require_once '../app/controllers/ErrorController.php';

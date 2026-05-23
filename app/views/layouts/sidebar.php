@@ -10,7 +10,7 @@
             Dashboard
         </a>
 
-        <a href="#">
+        <a href="<?= BASE_URL ?>pacientes">
             Pacientes
         </a>
 
