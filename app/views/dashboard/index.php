@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <h1>Dashboard Hospital</h1>
+
+</body>
+</html>
