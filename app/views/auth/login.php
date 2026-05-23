@@ -14,6 +14,7 @@
 
         <input
             type="email"
+            name="correo"
             placeholder="Correo"
             required>
 
@@ -21,6 +22,7 @@
 
         <input
             type="password"
+            name="password"
             placeholder="Contraseña"
             required>
 

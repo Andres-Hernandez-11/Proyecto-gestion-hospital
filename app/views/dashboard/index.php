@@ -8,7 +8,14 @@
 
 <body>
 
-    <h1>Dashboard Hospital</h1>
+    <h1>
+        Bienvenido
+        <?= htmlspecialchars($_SESSION['usuario']['nombre']) ?>
+    </h1>
+
+    <a href="<?= BASE_URL ?>logout">
+        Cerrar sesión
+    </a>
 
 </body>
 </html>

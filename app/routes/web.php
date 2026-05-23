@@ -13,6 +13,15 @@ switch ($url)
 
     break;
 
+    case 'logout':
+
+        require_once '../app/controllers/AuthController.php';
+
+        $controller = new AuthController();
+        $controller->logout();
+
+    break;
+
     case 'dashboard':
 
         require_once '../app/controllers/DashboardController.php';
