@@ -18,7 +18,7 @@
             Doctores
         </a>
 
-        <a href="#">
+        <a href="<?= BASE_URL ?>citas">
             Citas
         </a>
 

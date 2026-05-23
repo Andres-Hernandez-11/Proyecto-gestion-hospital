@@ -139,6 +139,60 @@ switch ($url)
 
     break;
 
+    case 'citas':
+
+        require_once '../app/controllers/CitaController.php';
+
+        $controller = new CitaController();
+        $controller->index();
+
+    break;
+
+    case 'citas/create':
+
+        require_once '../app/controllers/CitaController.php';
+
+        $controller = new CitaController();
+        $controller->create();
+
+    break;
+
+    case 'citas/store':
+
+        require_once '../app/controllers/CitaController.php';
+
+        $controller = new CitaController();
+        $controller->store();
+
+    break;
+
+    case 'citas/edit':
+
+        require_once '../app/controllers/CitaController.php';
+
+        $controller = new CitaController();
+        $controller->edit();
+
+    break;
+
+    case 'citas/update':
+
+        require_once '../app/controllers/CitaController.php';
+
+        $controller = new CitaController();
+        $controller->update();
+
+    break;
+
+    case 'citas/delete':
+
+        require_once '../app/controllers/CitaController.php';
+
+        $controller = new CitaController();
+        $controller->delete();
+
+    break;
+
     default:
 
         require_once '../app/controllers/ErrorController.php';
