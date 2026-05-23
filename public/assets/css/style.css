@@ -270,3 +270,29 @@ table tr:hover{
     background:#fee2e2;
     color:#991b1b;
 }
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.card-stat{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.card-stat h3{
+    font-size:16px;
+    color:#64748b;
+    margin-bottom:10px;
+}
+
+.card-stat h2{
+    font-size:35px;
+    color:#1e293b;
+}
