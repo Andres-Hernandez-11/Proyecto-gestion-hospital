@@ -1,21 +1,27 @@
-<!DOCTYPE html>
-<html lang="es">
+<h1>Dashboard</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Dashboard</title>
-</head>
+<br>
 
-<body>
+<div class="cards">
 
-    <h1>
-        Bienvenido
-        <?= htmlspecialchars($_SESSION['usuario']['nombre']) ?>
-    </h1>
+    <div class="card">
+        <h3>125</h3>
+        <p>Pacientes</p>
+    </div>
 
-    <a href="<?= BASE_URL ?>logout">
-        Cerrar sesión
-    </a>
+    <div class="card">
+        <h3>24</h3>
+        <p>Doctores</p>
+    </div>
 
-</body>
-</html>
+    <div class="card">
+        <h3>18</h3>
+        <p>Citas Hoy</p>
+    </div>
+
+    <div class="card">
+        <h3>6</h3>
+        <p>Pendientes</p>
+    </div>
+
+</div>

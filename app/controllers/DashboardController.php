@@ -8,6 +8,10 @@ class DashboardController
     {
         AuthMiddleware::handle();
 
-        require_once '../app/views/dashboard/index.php';
+        $view =
+        '../app/views/dashboard/index.php';
+
+        require_once
+        '../app/views/layouts/app.php';
     }
 }
